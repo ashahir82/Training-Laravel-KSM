@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\TodoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,5 @@ Route::get('/', function () {
 
 Route::get('/trainksm',[TestController::class, 'cubaan']);
 Route::get('/welcome',[TestController::class, 'welcome']);
+
+Route::get('/index', [TodoController::class, 'index']);
