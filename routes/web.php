@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/trainksm',[TestController::class, 'cubaan']);
+Route::get('/welcome',[TestController::class, 'welcome']);

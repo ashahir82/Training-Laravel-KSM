@@ -11,4 +11,9 @@ class TestController extends Controller
     {
         return 'Cubaan';
     }
+
+    public function welcome()
+    {
+        return view('cubaan.test');
+    }
 }
